@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+:root{
+    --main-color: #7b7a7a;
+    --black-color: #121212;
+    --border: 0.1rem solid rgba(255,255,255,0.4);
+   
+}
+*{font-family: 'Tilt Neon', cursive;
+    text-decoration: none;
+    color: white;
+}
+html {
+    font-size: 70%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--main-color);
+    
+}
+.backG {height: 24rem;
+    padding-left: 7rem;
+    padding-top: 0rem;
+    opacity: 0.7;
+}
+.navbar{background-color: #363636;
+    align-items: center;
+    padding: 2rem 10rem;
+    word-spacing: 1rem;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    color: white;
+}
+.buttons{padding-left: 35rem;
+    height: max-content;
+}
+.baslık{font-size: 2.5rem;
+margin-left: 4rem;
+padding-right: 30rem;
+border: hidden;
+font-weight: bold;
+color: #fff;
+}
